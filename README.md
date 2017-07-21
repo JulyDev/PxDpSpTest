@@ -1,2 +1,4 @@
 # PxDpSpTest
 理解getDimensionPixelSize，getDimension，getDimensionPixelOffset
+根据实际情况，如果是四舍五入就调用getDimensionPixelSize()，如果是取整就调用getDimensionPixelOffset()，
+getDimension()返回值是float类型，这三个方法的返回值单位都是px
